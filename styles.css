@@ -1,0 +1,93 @@
+table{
+    width:100%;
+    border:1px solid-transparent; 
+border-collapse:collapse;
+    margin-top:20px;
+    margin-bottom:50px;
+    padding:20px;
+}
+th{
+    font-size:25px;
+    text-decoration: none;
+    color:yellow;
+    padding:25px;
+}
+a{
+    color:yellow;
+    text-decoration: none;
+}
+a:hover{
+    color:yellowgreen;
+    text-decoration: none;
+}
+#quiz{
+    background-image: url("https://media.istockphoto.com/id/1348235111/photo/innovation-and-new-ideas-lightbulb-concept-with-question-mark.jpg?s=170667a&w=is&k=20&c=spjT15_HZlEQBBma0q79_JQ_dNQEHzrreDVClQY3VBk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes animation{
+    0%{
+        background-color:lightseagreen;
+    }
+25%{
+    background-color: rgb(251, 251, 192);
+}
+50%{
+    background-color: lightslategray;
+}
+75%{
+    background-color: lightcoral;
+}
+100%{
+background-color: lightgreen;
+}
+}
+body{
+    animation-name: animation;
+    animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+h2{
+animation-name: animation2;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes animatiotion2{
+    from{
+        font-size:22px;
+        color:green;
+    }
+    to{
+        font-size: 25px;
+        coloor:blue;
+    }
+}
+footer{
+    background-color:lightgrey;
+    text-align:center;
+    padding: 50px;
+    margin-top: 150px;
+}
+#shkibidi{
+    text-align:center;
+}
+#science{
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    width:50%;
+    padding: 20px;
+}
+button{
+    background-color: skyblue;
+}
+label{
+    display: block;
+    margin: 10px;
+}
+#joydan{
+    color:red;
+}
+.mask{
+    color:red;
+}
